@@ -63,7 +63,7 @@ const Multistep = React.createClass({
           </li>
           )}
         </ol>
-        {this.props.steps[this.state.compState].component}
+        {this.props.steps[this.state.compState].component()}
       </div>
     )}
 })
